@@ -11,7 +11,7 @@
 
 # Project Name and About;
 ## E-Commerce Book Store
-###Technologies Used;
+### Technologies Used;
 #### HTML
 #### CSS
 #### JavaScript
@@ -36,7 +36,7 @@
 ### Sepetten istek listesine ekle
 ### Sipariş edilen ürünlerin sipariş özeti
 
-##Level 2
+## Level 2
 
 ### Ürünleri sıralayın ve filtreleyin
 ### Fiyata Göre Sırala Düşükten Yüksek ve Yüksekten Alçağa
@@ -45,6 +45,6 @@
 ### Ortalama ürün puanına göre filtreleyin
 ### Tüm filtreleri temizle
 
-##Level 3
+## Level 3
 
 ### Admin Sayfaları 
