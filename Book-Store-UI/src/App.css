@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  
+}
+
+
+.formEleman {
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+
+
+.login-page {
+  background-color: rgb(168, 221, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 65px 10px;
+  text-align: center;
+  
+
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.sliderPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.header div img {
+  width: 75px;
+  
+  
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
