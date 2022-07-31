@@ -19,8 +19,10 @@
 #### Bootstrap
 #### Rooter
 #### C#
-#### .NET Core
+#### ASP .NET Core
 #### API
+#### EntityFrameworkCore
+
 
 # Features;
 
