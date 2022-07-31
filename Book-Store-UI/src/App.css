@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
   
 }
 
@@ -41,8 +41,11 @@
   
 }
 .cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+ 
   margin-top: 50px;
+  overflow: hidden;
+}
+.inputSearch{
+  display: flex;
+  justify-content: center;
 }
