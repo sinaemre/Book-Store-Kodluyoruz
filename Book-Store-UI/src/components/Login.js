@@ -1,9 +1,13 @@
 import React from "react";
 import { Formik } from "formik";
+import { Button } from "@chakra-ui/react";
+
 
 
 
 const Login = () => (
+
+  
     <div className="login-page">
       <h2>Giriş Yapınız</h2>
       <Formik
@@ -74,9 +78,9 @@ const Login = () => (
             />
             {errors.password && touched.password && errors.password}
             <br/><br/>
-            <button type="submit" disabled={isSubmitting}>
+            <Button type="submit" disabled={isSubmitting}>
               Gönder
-            </button>
+            </Button>
 
           </form>
         )}
