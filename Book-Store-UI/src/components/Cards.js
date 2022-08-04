@@ -1,28 +1,37 @@
 
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
 import { Container } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import { Button } from '@chakra-ui/react'
+
 
 function Cards( { item } ) {
 
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `/Products/${item.id}`; 
+    navigate(path);
+  }
 
   return (
-    <Container>
+    <div className='cards'>
+    <Container  onClick={routeChange}>
      
       
         <Card style={{ width: '18rem' }}   >
-          <Card.Img variant="top" src={item.image} />
-            <Card.Body>
+          <Card.Img className='cardimage' variant="top" src={item.image} />
+            <Card.Body className='cardbody' >
             <Card.Title >{item.title}</Card.Title>
-            <Card.Text>{item.description}</Card.Text>
-          <Button variant="primary">Satın Al</Button>
+            <Card.Text>Lorem ipsum dolor sit amet.</Card.Text>
+          <Button colorScheme='teal'>Satın al</Button>
         </Card.Body>
       </Card>
     
     
     
     </Container>
-  
+    </div>
   );
 }
 

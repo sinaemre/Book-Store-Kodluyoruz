@@ -78,8 +78,8 @@ const Login = () => (
             />
             {errors.password && touched.password && errors.password}
             <br/><br/>
-            <Button type="submit" disabled={isSubmitting}>
-              Gönder
+            <Button colorScheme='teal' type="submit" disabled={isSubmitting}>
+              Üye Ol
             </Button>
 
           </form>
