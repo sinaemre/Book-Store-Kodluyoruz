@@ -1,27 +1,23 @@
-import React, { useState,useEffect } from 'react'
+import { useQuery } from '@chakra-ui/react';
+import React from 'react'
 import { useParams } from 'react-router-dom'
+import fakes from './fakes';
+ 
 
 function ProductDetails() {
 
-    const {id} = useParams
-    const [data,setData] = useState([]);
+    const {id} = useParams();
 
-    useEffect( () => {
-        fetch(`https://fakestoreapi.com/products/1`)
-        .then(res => res.json()).then(id =>setData(id));
-        console.log(setData);
-      },[id]);
+    const{isLoading, isError, data} = useQuery(['product', id] , () => fakes(id) );
 
+    
+console.log(data);
 
   return (
     <div>
-        Urun Baslık
-        
-      {data.map (() => (
-            <div>{data.title} </div>
-      ))
-    }
+        {id}
     </div>
+
   )
 }
 
