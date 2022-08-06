@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
   
 }
 
@@ -12,17 +12,27 @@
 
 
 .login-page {
-  background-color: rgb(168, 221, 230);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border-radius: 10px;
-  padding: 65px 10px;
-  text-align: center;
-  
-
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border-radius: 10px;
+padding: 65px 10px;
+text-align: center;
 }
+
+.login-page h2{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.login-page input {
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 250px;
+}
+
+
 .header {
   display: flex;
   align-items: center;
@@ -41,8 +51,25 @@
   
 }
 .cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+ 
   margin-top: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+.cardimage{
+  height: 400px;
+  cursor: pointer;
+}
+.cardbody {
+  height: 200px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.inputSearch{
+  display: flex;
+  justify-content: center;
 }

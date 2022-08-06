@@ -1,32 +1,31 @@
-import Button from 'react-bootstrap/Button';
+
+
 import Card from 'react-bootstrap/Card';
-import { useEffect, useState } from 'react';
-import React from 'react';
-import axios from 'axios';
+import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { Button } from '@chakra-ui/react'
 
-function Cards() {
-  const [data, setData] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await axios.get("https://localhost:44349/api/Books/4");
-      console.log(response.data.bookTitle);
-      setData(response.data);
-    }
+function Cards( { item } ) {
 
-    fetchData();
-  }, []);
+
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={data.imagePath} />
-      <Card.Body>
-            <Card.Title>{data.bookTitle}</Card.Title>
-        <Card.Text>
-          {data.description}
-        </Card.Text>
-        <Button variant="primary">Satın Al</Button>
-      </Card.Body>
-    </Card>
+    <div className='cards'>
+    <Container>
+      <Link to={`/products/${item.id}`}>
+        <Card style={{ width: '18rem' }}>
+          <Card.Img className='cardimage' variant="top" src={item.image} />
+            <Card.Body className='cardbody' >
+            <Card.Title >{item.title}</Card.Title>
+            <Card.Text>Fiyat: {item.price} TL</Card.Text>
+          <Button colorScheme='teal'>Satın al</Button>
+        </Card.Body>
+      </Card>
+      </Link>
+    
+    
+    </Container>
+    </div>
   );
 }
 
