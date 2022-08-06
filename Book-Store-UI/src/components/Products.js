@@ -8,7 +8,7 @@ function Products() {
     const [data,setData] = useState([]);
 
     useEffect(()=> {
-      fetch(`https://fakestoreapi.com/products`)
+      fetch(`https://localhost:5001/api/Books/`)
       .then(res => res.json()).then(data =>setData(data));
     },[data]);
 
