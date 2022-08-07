@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useEffect ,useState } from "react";
 import { Formik } from "formik";
 import { Button } from "@chakra-ui/react";
-
+import { register } from "../API";
 
 
 
 const Login = () => (
+
+ 
 
   
     <div className="login-page">
@@ -16,6 +18,7 @@ const Login = () => (
           const errors = {};
           if (!values.email) {
             errors.email = 'Zorunlu';
+            
           } else if (
             !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
           ) {
@@ -23,12 +26,22 @@ const Login = () => (
           }
           return errors;
         }}
-        onSubmit={(values,{ setSubmitting }) => {
-          setTimeout(() => {
-            alert(JSON.stringify(values,null,2));
+         
+        onSubmit={async (values,{ setSubmitting }) => {
+          
+            try {
+              const registerPost = await register ({
+                email:values.email,
+                username:values.username,
+                password:values.password
+              });
+              console.log(registerPost)
+            } catch (error) {
+              
+            }
             setSubmitting(false);
-            
-          }, 400);
+           
+          
         }}
         
       >
@@ -40,16 +53,22 @@ const Login = () => (
           handleBlur,
           handleSubmit,
           isSubmitting,
+         
           
         }) => (
           <form onSubmit={handleSubmit}>
 
             <div className="formEleman">Kullanıcı Adı</div>
+           
+           <div>{errors.email && touched.email && errors.email}</div> 
+            
+            
             <input type="text"
             name="username"
             onChange={handleChange}
             onBlur={handleBlur}
             value={values.username}
+            
             />
 
 
@@ -64,8 +83,9 @@ const Login = () => (
               onChange={handleChange}
               onBlur={handleBlur}
               value={values.email}
+              
             />
-            {errors.email && touched.email && errors.email}
+            
             
 
             <div className="formEleman">Şifre</div>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Input } from '@chakra-ui/react'
 import { useState } from 'react';
 
+
 function SearchInput() {
 
   const [word, setWord] = useState('');
