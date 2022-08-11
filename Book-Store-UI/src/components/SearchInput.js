@@ -8,6 +8,7 @@ function SearchInput() {
 
   const [word, setWord] = useState('');
   const bookList = data.jsonStringfy();
+//   const bookList =[];
   const handleChange = (e) => {
     setWord(e.target.value);
 

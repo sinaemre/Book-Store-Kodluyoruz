@@ -7371,11 +7371,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\BookStoreAPI\\BookStoreAPI.csproj",
+      "projectUniqueName": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\BookStoreAPI\\BookStoreAPI.csproj",
       "projectName": "BookStoreAPI",
-      "projectPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\BookStoreAPI\\BookStoreAPI.csproj",
+      "projectPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\BookStoreAPI\\BookStoreAPI.csproj",
       "packagesPath": "C:\\Users\\snabk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\BookStoreAPI\\obj\\",
+      "outputPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\BookStoreAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\snabk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7392,8 +7392,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -7445,7 +7445,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

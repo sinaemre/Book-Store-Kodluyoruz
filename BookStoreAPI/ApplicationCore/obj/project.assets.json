@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\ApplicationCore\\ApplicationCore.csproj",
+      "projectPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\ApplicationCore\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\snabk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\ApplicationCore\\obj\\",
+      "outputPath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\snabk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

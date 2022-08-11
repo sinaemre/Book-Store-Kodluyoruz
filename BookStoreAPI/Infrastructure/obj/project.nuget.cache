@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6/kkbOn09gdBv0nALsoMpK987OpSfIwUfxeBdC7xTeCFUZpUaiGNaGeqUVochg/BfPdlTIb0Wvf41JzF++UsQw==",
+  "dgSpecHash": "jHtF/xQeHjIGmIPNt9RN7ItTSXiGuu1MiM17jf4SuOdK8pR6otgye5DvvcCQ1y9DPPRohbxRiV1dSnGbsni//A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\snabk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\snabk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

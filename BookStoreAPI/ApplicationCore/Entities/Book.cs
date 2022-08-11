@@ -15,7 +15,6 @@ namespace ApplicationCore.Entities
         public string ImagePath { get; set; }
         public string Description { get; set; }
         public BookTypes Genre { get; set; }
-        public int AuthorId { get; set; }
-        public Author Author { get; set; }
+        public string Author { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/b3w+vrWmBkaOPilxoY9BnmLlV5CVizwijxx2wgeI3Y/HQ2v4f/EwgfaJiR+kJMLojC+VtzL9A7i6RDyxRhTw==",
+  "dgSpecHash": "BjwSTKPLpEsUaRpPlZNiZng78lHUryPWBjrBXq15qrY+o7ZF+r+uYlhBqu72zhx877d2iGB7TiQz697CUhlt2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\New-Project-2\\Book-Store-Kodluyoruz\\BookStoreAPI\\BookStoreAPI\\BookStoreAPI.csproj",
+  "projectFilePath": "C:\\Users\\snabk\\OneDrive\\Masaüstü\\Yeni klasör\\Book-Store-Kodluyoruz\\BookStoreAPI\\BookStoreAPI\\BookStoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\snabk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\snabk\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
